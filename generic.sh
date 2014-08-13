@@ -7,5 +7,5 @@ git clone git://github.com/RichiH/vcsh/ vcsh
 cp myrepos/mr bin
 cp vcsh/vcsh bin
 chmod u+x bin/mr bin/vcsh
-bin/vcsh clone git@github.com:qhool/dot_mr.git mr
+bin/vcsh clone git://github.com/qhool/dot_mr mr
 bin/mr up

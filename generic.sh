@@ -3,8 +3,9 @@
 cd $HOME
 mkdir -p bin
 git clone git://myrepos.branchable.com/ myrepos
+git clone git://github.com/RichiH/vcsh/ vcsh
 cp myrepos/mr bin
-curl https://github.com/RichiH/vcsh/blob/master/vcsh -o bin/vcsh
-
-vcsh clone git@github.com:qhool/dot_mr.git mr
-mr up
+cp vcsh/vcsh bin
+chmod u+x bin/mr bin/vcsh
+bin/vcsh clone git@github.com:qhool/dot_mr.git mr
+bin/mr up

@@ -4,5 +4,7 @@ This repo is the 'bootstrap' for the rest of my dotfiles stuff (the dotfiles rep
 
 To use:
 
-    curl https://github.com/qhool/dot_bootstrap/blob/master/generic.sh | sh
-    
+    git clone git://github.com/qhool/dot_bootstrap
+    sh ./dot_bootstrap/generic.sh
+
+
